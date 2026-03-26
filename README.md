@@ -42,8 +42,7 @@ You must:
 6. Continue until coverage reaches 100%
 
 ## Deliverable
-Submit the completed test suite with:
-
-* all tests passing
-* 100% line coverage
-* 100% branch coverage
+Submit: 
+1. the initial line coverage HTML report 
+2. the initial branch coverage HTML report
+3. your test suite with:all tests passing; 100% line coverage; 100% branch coverage
