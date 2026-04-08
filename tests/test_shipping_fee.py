@@ -17,3 +17,10 @@ def test_international_heavy_express():
 def test_invalid_weight():
     with pytest.raises(ValueError):
         shipping_cost(0, "domestic", False, False)
+
+def test_domestic_medium_fragile():
+    assert shipping_cost(9, "domestic", False, True) == 17
+
+def test_invalid_destination():
+    with pytest.raises(ValueError):
+        shipping_cost(9, "abroad", False, False)
